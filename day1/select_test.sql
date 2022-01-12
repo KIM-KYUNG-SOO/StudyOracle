@@ -3,8 +3,8 @@ select*from emp;
 -- ;은 한문장이 끝날떄 사용, DB에서는 입력안해도 된다.
 -- *은 all이란 뜻이다.
 desc emp;
--- colum을 보여줌
--- colum을 구분해서 select
+-- column을 보여줌
+-- column을 구분해서 select
 select ename, job, hiredate from emp;
 
 -- 부서명만 출력(중복값 제외 : distinct)
