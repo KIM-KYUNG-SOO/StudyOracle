@@ -76,3 +76,15 @@ SELECT ename, job, sal, sal*12 AS annsal
  FROM emp
  WHERE ename LIKE '__RD'; -- '_'하나당 글자수 1자
 
+-- null, 함수명 NVL()
+SELECT ename, job, sal, comm
+ FROM emp
+ WHERE COMM IS NULL; --<> IS NOT NULL
+
+-- UNION(테이블을 밑으로 합치는 행위, column의 갯수가 맞아야함)
+-- 관계가 없는 데이터라도, 타입만 맞으면 병합이 가능함
+-- UNION ALL -> 중복은 데이터는 빼고 병합
+SELECT empno , ename, job FROM emp -- 기준 테이블
+ WHERE comm IS NOT NULL
+UNION
+SELECT deptno, dname, loc FROM dept;
