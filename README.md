@@ -14,3 +14,9 @@ Oracle 학습 리포지토리
 - IN 절
 - BETWEEN AND, LIKE
 - LIKE 절
+
+### 3일차 학습
+- JOIN(INNER, OUTER, 여러개의 JOIN) 
+- SEQUENCE
+- INSERT, UPDATE, DELETE 
+- EXAM(김경수.SQL)
