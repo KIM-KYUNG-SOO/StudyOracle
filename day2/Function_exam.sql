@@ -92,5 +92,3 @@ SELECT NVL(TO_CHAR(deptno),'총합계') 부서번호, NVL(job,'합계') JOB
  FROM emp
  GROUP BY ROLLUP(deptno, job);
 -- HAVING AVG(sal) >= 1000 -- HAVING절은 GROUP BY절 밑으로
-
--- JOIN
