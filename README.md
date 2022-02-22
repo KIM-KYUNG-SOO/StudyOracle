@@ -20,3 +20,24 @@ Oracle 학습 리포지토리
 - SEQUENCE
 - INSERT, UPDATE, DELETE 
 - EXAM(김경수.SQL)
+
+### 1~2일차 복습
+- INSERT, UPDATE, CREATE, ALTER
+- SELECT, 기타함수
+- 문제풀이
+
+### 3일차 복습
+- GROUP 함수(Count, Min, Max 등...)
+- NULL값의 처리
+- DECODE, WHEN절
+- 문제풀이
+
+### 4일차 복습
+- EXIST
+- JOIN(INNER JOIN)
+- 문제풀이
+
+### 5일차 복습
+- JOIN(OUTER JOIN)
+- 서브쿼리복습
+- 문제 풀이
